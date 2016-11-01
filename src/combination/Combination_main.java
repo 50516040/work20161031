@@ -13,7 +13,7 @@ public class Combination_main {
 		int r = Integer.parseInt(scan.next());
 		
 		Combination_lib clib = new Combination_lib();
-//		System.out.println(s+"!="+clib.getFactorial(s));
+
 		System.out.println(s+"C"+r+"="+clib.getFactorial(s)/(clib.getFactorial(r)*clib.getFactorial(s-r)));
 	}
 
