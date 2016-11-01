@@ -2,8 +2,6 @@ package combination;
 
 public class Combination_lib {
 	
-	private int n;
-	
 	public int getFactorial(int n){
 		int f=1;
 		for(int i=n;i>=0;i--){
